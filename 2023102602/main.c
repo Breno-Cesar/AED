@@ -5,7 +5,7 @@ int main() {
     Pessoa *ponteiroPessoa = criarPessoa();
 
     if (ponteiroPessoa == NULL) {
-        printf("Erro ao alocar memória para a estrutura Pessoa.\n");
+        printf("Erro ao alocar memÃ³ria para a estrutura Pessoa.\n");
         return 1;
     }
 
