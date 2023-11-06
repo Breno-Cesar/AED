@@ -10,7 +10,7 @@ int main() {
     Cubo *meuCubo = criarCubo(lado);
 
     if (meuCubo == NULL) {
-        printf("Erro ao alocar memória para o cubo.\n");
+        printf("Erro ao alocar memÃ³ria para o cubo.\n");
         return 1;
     }
 
