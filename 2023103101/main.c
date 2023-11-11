@@ -23,7 +23,7 @@ int main() {
     printf("Busca ordenada do elemento %d: %d\n", elementoBusca, posicaoOrdenada);
 
     int posicaoBinaria = buscarElementoBinario(minhaLista, elementoBusca);
-    printf("Busca bin·ria do elemento %d: %d\n", elementoBusca, posicaoBinaria);
+    printf("Busca bin√°ria do elemento %d: %d\n", elementoBusca, posicaoBinaria);
 
     int maiorElemento = buscarMaiorElemento(minhaLista);
     printf("Maior elemento na lista: %d\n", maiorElemento);
