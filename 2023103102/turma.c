@@ -16,7 +16,7 @@ void inserirAluno(TURMA *turma, ALUNO aluno) {
             return;
         }
     }
-    printf("A turma est· cheia. N„o È possÌvel adicionar mais alunos.\n");
+    printf("A turma est√° cheia. N√£o √© poss√≠vel adicionar mais alunos.\n");
 }
 
 void liberarTurma(TURMA *turma) {
@@ -29,21 +29,21 @@ void buscarAlunoPorCodigo(TURMA turma, int codigo) {
     for (int i = 0; i < turma.quantidadeAlunos; i++) {
         if (turma.alunos[i].codigo == codigo) {
             printf("Dados do aluno:\n");
-            printf("CÛdigo: %d\n", turma.alunos[i].codigo);
+            printf("C√≥digo: %d\n", turma.alunos[i].codigo);
             printf("Nome: %s\n", turma.alunos[i].nome);
             printf("Idade: %d\n", turma.alunos[i].idade);
             printf("Coeficiente: %.2f\n", turma.alunos[i].coeficiente);
             return;
         }
     }
-    printf("Aluno com cÛdigo %d n„o encontrado.\n", codigo);
+    printf("Aluno com c√≥digo %d n√£o encontrado.\n", codigo);
 }
 
 void imprimirAlunos(TURMA turma) {
-    printf("CÛdigo e Nome dos Alunos:\n");
+    printf("C√≥digo e Nome dos Alunos:\n");
     for (int i = 0; i < turma.quantidadeAlunos; i++) {
         if (turma.alunos[i].codigo != 0) {
-            printf("CÛdigo: %d, Nome: %s\n", turma.alunos[i].codigo, turma.alunos[i].nome);
+            printf("C√≥digo: %d, Nome: %s\n", turma.alunos[i].codigo, turma.alunos[i].nome);
         }
     }
 }
