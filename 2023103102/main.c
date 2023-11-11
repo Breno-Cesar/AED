@@ -15,11 +15,11 @@ int main() {
         ALUNO novoAluno;
 
         printf("\nDigite os dados do Aluno %d:\n", i + 1);
-        printf("Código: ");
+        printf("CÃ³digo: ");
         scanf("%d", &novoAluno.codigo);
 
         printf("Nome: ");
-        // Lendo o nome usando fgets para lidar com espaços em branco
+        // Lendo o nome usando fgets para lidar com espaÃ§os em branco
         getchar(); // Consumir o caractere de nova linha pendente
         fgets(novoAluno.nome, MAX_NOME, stdin);
 
@@ -33,7 +33,7 @@ int main() {
     }
 
     int codigoBusca;
-    printf("\nDigite o código do aluno que deseja buscar: ");
+    printf("\nDigite o cÃ³digo do aluno que deseja buscar: ");
     scanf("%d", &codigoBusca);
     buscarAlunoPorCodigo(minhaTurma, codigoBusca);
 
