@@ -21,10 +21,10 @@ int main() {
     imprimirListaRecursivo(minhaLista, 0);
 
     int elementoBusca;
-    printf("\nDigite o elemento que deseja buscar na lista (busca bin·ria recursiva): ");
+    printf("\nDigite o elemento que deseja buscar na lista (busca bin√°ria recursiva): ");
     scanf("%d", &elementoBusca);
     int posicaoBinaria = buscarElementoBinarioRecursivo(minhaLista, elementoBusca, 0, minhaLista.quantidade - 1);
-    printf("Busca bin·ria recursiva do elemento %d: %d\n", elementoBusca, posicaoBinaria);
+    printf("Busca bin√°ria recursiva do elemento %d: %d\n", elementoBusca, posicaoBinaria);
 
     int maiorElemento = buscarMaiorElementoRecursivo(minhaLista, 0);
     printf("Maior elemento na lista (recursivo): %d\n", maiorElemento);
