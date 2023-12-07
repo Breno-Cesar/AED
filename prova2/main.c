@@ -21,7 +21,7 @@ int main() {
     }
     printf("\n");
 
-    // Contar ocorrências de um valor
+    // Contar ocorrÃªncias de um valor
     int valorBusca = 5;
     int ocorrencias = contarOcorrencias(&lista, valorBusca);
     printf("O valor %d aparece %d vezes na lista.\n", valorBusca, ocorrencias);
