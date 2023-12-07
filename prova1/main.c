@@ -9,7 +9,7 @@ int main() {
     int codigo;
 
     // Adicionar aluno 1
-    printf("Digite o código do aluno 1: ");
+    printf("Digite o cÃ³digo do aluno 1: ");
     scanf("%d", &codigo);
     aluno.codigo = codigo;
 
@@ -19,13 +19,13 @@ int main() {
     printf("Digite a idade do aluno 1: ");
     scanf("%d", &aluno.idade);
 
-    printf("Digite o número de filhos do aluno 1: ");
+    printf("Digite o nÃºmero de filhos do aluno 1: ");
     scanf("%d", &aluno.num_filhos);
 
     adicionarAluno(&lista, aluno);
 
     // Adicionar aluno 2
-    printf("Digite o código do aluno 2: ");
+    printf("Digite o cÃ³digo do aluno 2: ");
     scanf("%d", &codigo);
     aluno.codigo = codigo;
 
@@ -35,15 +35,15 @@ int main() {
     printf("Digite a idade do aluno 2: ");
     scanf("%d", &aluno.idade);
 
-    printf("Digite o número de filhos do aluno 2: ");
+    printf("Digite o nÃºmero de filhos do aluno 2: ");
     scanf("%d", &aluno.num_filhos);
 
     adicionarAluno(&lista, aluno);
 
-    // Verificar duplicação
-    printf("Verificando duplicação para o aluno 1:\n");
+    // Verificar duplicaÃ§Ã£o
+    printf("Verificando duplicaÃ§Ã£o para o aluno 1:\n");
     if (!alunoDuplicado(&lista, lista.alunos[0])) {
-        printf("Adicionando aluno 1 novamente à lista.\n");
+        printf("Adicionando aluno 1 novamente Ã  lista.\n");
         adicionarAluno(&lista, lista.alunos[0]);
     }
 
