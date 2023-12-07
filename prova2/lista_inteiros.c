@@ -14,7 +14,7 @@ void inserirOrdenado(ListaInteiros *lista, int valor) {
 
     int i = lista->tamanho - 1;
 
-    // Encontrar a posição correta para inserção
+    // Encontrar a posiÃ§Ã£o correta para inserÃ§Ã£o
     while (i >= 0 && lista->elementos[i] > valor) {
         lista->elementos[i + 1] = lista->elementos[i];
         i--;
