@@ -10,7 +10,7 @@ void adicionarAluno(ListaAlunos *lista, Aluno aluno) {
         lista->alunos[lista->tamanho++] = aluno;
         printf("Aluno adicionado com sucesso.\n");
     } else {
-        printf("A lista de alunos est· cheia. N„o È possÌvel adicionar mais alunos.\n");
+        printf("A lista de alunos est√° cheia. N√£o √© poss√≠vel adicionar mais alunos.\n");
     }
 }
 
@@ -21,14 +21,14 @@ int alunoDuplicado(ListaAlunos *lista, Aluno aluno) {
             return 1; // Duplicado
         }
     }
-    printf("Aluno n„o duplicado.\n");
-    return 0; // N„o duplicado
+    printf("Aluno n√£o duplicado.\n");
+    return 0; // N√£o duplicado
 }
 
 void imprimirLista(ListaAlunos *lista) {
     printf("Lista de Alunos:\n");
     for (int i = 0; i < lista->tamanho; i++) {
-        printf("CÛdigo: %d, Nome: %s, Idade: %d, N˙mero de Filhos: %d\n",
+        printf("C√≥digo: %d, Nome: %s, Idade: %d, N√∫mero de Filhos: %d\n",
                lista->alunos[i].codigo, lista->alunos[i].nome,
                lista->alunos[i].idade, lista->alunos[i].num_filhos);
     }
