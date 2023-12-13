@@ -5,7 +5,7 @@ int main() {
     Lista lista;
     inicializarLista(&lista);
 
-    // Solicitar informações do usuário
+    // Solicitar informaÃ§Ãµes do usuÃ¡rio
     printf("Informe o tamanho da lista (ate %d elementos): ", TAMANHO_MAX);
     scanf("%d", &lista.tamanho);
 
