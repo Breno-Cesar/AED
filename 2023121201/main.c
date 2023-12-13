@@ -4,7 +4,7 @@ int main() {
     ListaAlunos lista;
     inicializarLista(&lista);
 
-    // Solicitar informações do usuário
+    // Solicitar informaÃ§Ãµes do usuÃ¡rio
     Aluno aluno;
     printf("Informe a matricula do aluno: ");
     scanf("%d", &aluno.matricula);
@@ -25,14 +25,14 @@ int main() {
     // Exibir quantidade de elementos
     printf("\nQuantidade de Elementos: %d\n", tamanhoLista(&lista));
 
-    // Remover aluno com base na matrícula
+    // Remover aluno com base na matrÃ­cula
     int matriculaRemover;
     printf("\nInforme a matricula do aluno a ser removido: ");
     scanf("%d", &matriculaRemover);
     excluirElemento(&lista, matriculaRemover);
 
-    // Exibir lista após remoção
-    printf("\nLista de Alunos apos remoção:\n");
+    // Exibir lista apÃ³s remoÃ§Ã£o
+    printf("\nLista de Alunos apos remoÃ§Ã£o:\n");
     exibirLista(&lista);
 
     // Reiniciar lista
