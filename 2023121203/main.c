@@ -5,7 +5,7 @@ int main() {
     inicializarLista(&l1);
     inicializarLista(&l2);
 
-    // Solicitar informações do usuário para lista 1
+    // Solicitar informaÃ§Ãµes do usuÃ¡rio para lista 1
     int tamanho_l1;
     printf("Informe o tamanho da lista 1: ");
     scanf("%d", &tamanho_l1);
@@ -23,7 +23,7 @@ int main() {
 
     // Copiar lista 1 para lista 2
     copiarLista(&l1, &l2);
-    printf("Lista 2 (cópia de Lista 1): ");
+    printf("Lista 2 (cÃ³pia de Lista 1): ");
     exibirLista(&l2);
 
     // Concatenar lista 1 e lista 2
@@ -35,7 +35,7 @@ int main() {
     printf("Lista 2 apos concatenacao: ");
     exibirLista(&l2);
 
-    // Solicitar informações do usuário para lista 2
+    // Solicitar informaÃ§Ãµes do usuÃ¡rio para lista 2
     int tamanho_l2;
     printf("Informe o tamanho da lista 2: ");
     scanf("%d", &tamanho_l2);
@@ -55,7 +55,7 @@ int main() {
     printf("Intercalando Lista 1 e Lista 2:\n");
     intercalarListas(&l1, &l2);
 
-    printf("Lista resultante após intercalação: ");
+    printf("Lista resultante apÃ³s intercalaÃ§Ã£o: ");
     exibirLista(&l1);
 
     return 0;
